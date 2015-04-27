@@ -4,4 +4,4 @@ yum install -y gnome-classic-session gnome-terminal nautilus-open-terminal contr
 adduser user
 passwd user
 su user
-vncserver
+
