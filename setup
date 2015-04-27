@@ -1,4 +1,7 @@
 yum update
 yum groupinstall "X Window System"
 yum install -y gnome-classic-session gnome-terminal nautilus-open-terminal control-center liberation-mono-fonts tigervnc-server java firefox
+adduser user
+passwd user
+su user
 vncserver
